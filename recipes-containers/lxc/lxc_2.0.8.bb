@@ -30,7 +30,7 @@ RDEPENDS_${PN}_append_libc-glibc = " glibc-utils"
 
 RDEPENDS_${PN}-ptest += "file make gmp nettle gnutls bash libgcc"
 
-SRC_URI = "http://linuxcontainers.org/downloads/${BPN}-${PV}.tar.gz \
+SRC_URI = "http://linuxcontainers.org/downloads/${BPN}/${BPN}-${PV}.tar.gz \
 	file://lxc-1.0.0-disable-udhcp-from-busybox-template.patch \
 	file://run-ptest \
 	file://lxc-fix-B-S.patch \
